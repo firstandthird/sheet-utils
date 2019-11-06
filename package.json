@@ -1,0 +1,19 @@
+{
+  "name": "@firstandthird/sheet-utils",
+  "version": "0.0.1",
+  "description": "Utilities for working with google sheets.",
+  "main": "utils.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/firstandthird/sheetiutils.git"
+  },
+  "author": "First + Third",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/firstandthird/sheetiutils/issues"
+  },
+  "homepage": "https://github.com/firstandthird/sheetiutils#readme"
+}

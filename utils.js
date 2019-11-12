@@ -23,7 +23,7 @@ function sheetToConfig(sheetName) {
 function sheetToConfigVertical(sheetName) {
   const sheet = SpreadsheetApp.getActiveSpreadsheet();
   const configSheet = sheet.getSheetByName(sheetName);
-  const configRange = configSheet.getRange(1, 1, sheet.getLastRow(), sheet.getLastColumn());
+  const configRange = configSheet.getRange(1, 1, configSheet.getLastRow(), configSheet.getLastColumn());
 
   const sheetValues = configRange.getValues();
   const config = [];
